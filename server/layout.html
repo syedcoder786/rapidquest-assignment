@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <style>
+      ul {
+        list-style-type: disc;
+        padding-left: 1.25rem;
+      }
+
+      li {
+        margin-bottom: 0.25rem;
+      }
+
+      ol {
+        list-style-type: decimal;
+        padding-left: 1.25rem;
+      }
+
+      .ql-align-center {
+        text-align: center;
+      }
+      .ql-align-right {
+        text-align: end;
+      }
+
+      .ql-size-huge {
+        font-size: 40px;
+      }
+      .ql-size-large {
+        font-size: 25px;
+      }
+      .ql-size-small {
+        font-size: small;
+      }
+      a {
+        color: rgb(12, 12, 232);
+        text-decoration: underline;
+      }
+      div {
+        border: 2px;
+        border-style: solid;
+        border-color: #cccccc;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div><%- html %></div>
+  </body>
+</html>
